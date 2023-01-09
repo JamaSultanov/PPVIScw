@@ -1,0 +1,11 @@
+# ninja log v5
+0	1850	6629039740219491	CMakeFiles/paternDecorator.dir/main.cpp.obj	e7e559f57a3fc526
+4	2420	6629039745911292	CMakeFiles/paternDecorator.dir/decorator.cpp.obj	b3eea3a6fa6cf84e
+2421	2678	6629039748434308	paternDecorator.exe	fef60e47acf9582f
+8	3433	6629320007879371	CMakeFiles/paternDecorator.dir/decorator.cpp.obj	b3eea3a6fa6cf84e
+3435	3751	6629320011008711	paternDecorator.exe	fef60e47acf9582f
+8	2280	6629331056034530	CMakeFiles/paternDecorator.dir/decorator.cpp.obj	b3eea3a6fa6cf84e
+2281	2548	6629331058657267	paternDecorator.exe	fef60e47acf9582f
+53	2153	6630298499818760	CMakeFiles/paternDecorator.dir/main.cpp.obj	e7e559f57a3fc526
+8	2325	6630299019482509	CMakeFiles/paternDecorator.dir/decorator.cpp.obj	b3eea3a6fa6cf84e
+2326	2766	6630299023834414	paternDecorator.exe	fef60e47acf9582f

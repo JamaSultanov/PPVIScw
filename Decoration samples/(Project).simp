@@ -1,0 +1,432 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="13.05" multi-file="no" uid="simp8beec35ec4a843029e130d407a9d404f">
+  <meta>
+    <name>(Project)</name>
+    <authors> </authors>
+    <description />
+  </meta>
+  <counters models="2">
+    <entity-names />
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="group" type="Group" />
+        <value>14</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlPackageDiagram</type>
+        <value>1</value>
+      </counter>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields />
+  </counters>
+  <alias-groups />
+  <management uid="md-fb336e70415b4617a774a5a9acbd679e" name="" task-id-sequence="0">
+    <persons>
+      <person id="">
+        <first-name />
+        <last-name />
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-cc6d79897c4f4d06a38359c4084219b3" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types />
+  </types>
+  <items />
+  <models>
+    <model id="p03b4f635bc5240ddbb1bd2626f017e8f_111339351" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>01/03/2022 12:09:28</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items>
+        <item id="3ac4fccbb63c4d56b82e0590b201e388" cid="PKG001" type="package" name="" style-class="" creator="" creation-date="01/03/2022 12:09:37">
+          <tagged-values>
+            <tagged-value id="tvf40ffe93ed62499a8fa2f6b75976cd47" name="namespace" type="text" multiple="false" hidden="false" value="" />
+            <tagged-value id="tvb855a445283c40e99b5c42e3a75808ae" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+        </item>
+      </abstract-items>
+      <sub-models>
+        <model id="pf0761e6b98ab4280b31cb37525322144_782672556" name="" namespace="" order-index="2">
+          <meta>
+            <authors>
+              <author> </author>
+            </authors>
+            <description />
+            <creation-date>01/03/2022 12:09:37</creation-date>
+            <change-date>01/01/0001 00:00:00</change-date>
+            <revision-count>0</revision-count>
+            <version />
+          </meta>
+          <tagged-values>
+            <tagged-value id="tvcb672acea25845ee9ecda71d8786bf24" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+          </tagged-values>
+          <abstract-items>
+            <item id="7fa37d06169f452a9dd33b9fceda1b91" cid="C001" type="class" name="Main" style-class="" creation-date="01/03/2022 12:09:37">
+              <stereotypes>
+                <stereotype name="main" />
+              </stereotypes>
+              <stereotype-instances>
+                <stereotype id="7fa37d06169f452a9dd33b9fceda1b91_main_c" type="main" ref="" />
+              </stereotype-instances>
+              <operations>
+                <operation id="o9beb7b67fdb24d8bb0f096cea6906e05565" cid="OP001" name="main" creation-date="01/03/2022 12:09:37" type="int" type-id="int" visibility="undefined">
+                  <source-codes>
+                    <source-code language="Cpp">
+    ClientDecorator injector;
+    injector.run();
+
+    return 0;
+</source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="a95a3e6bbc6041bdacbc52d0244d48aa" cid="C002" type="class" name="Interface" style-class="" creation-date="01/03/2022 12:09:37" visibility="undefined">
+              <tagged-values>
+                <tagged-value id="tva285da5558e743ef8a39a55ca8ece996" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tvd61a89a7566e4037938279ed844f7f70" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Interface" />
+              </tagged-values>
+              <operations>
+                <operation id="o222444150c614465be904bfe63aa4b34580" cid="OP002" name="Interface" creation-date="01/03/2022 12:09:37" type="" type-id="" visibility="public" virtual="true">
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                </operation>
+                <operation id="o0956f7bc81364dc588677aeeb28faa0e582" cid="OP003" name="write" creation-date="01/03/2022 12:09:37" type="" type-id="" visibility="public" abstract="true" virtual="true">
+                  <parameters>
+                    <parameter id="pfde4b660e8ae43269bc4172fcca1c42c" name="?" type="std::string&amp;" type-id="std::string&amp;" />
+                  </parameters>
+                </operation>
+              </operations>
+            </item>
+            <item id="0a08e9840db94123b670afa1199a0e34" cid="C003" type="class" name="Core" style-class="" creation-date="01/03/2022 12:09:37" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvb134fa267dee46d3aa776e3efaacd38d" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv4994e00af7a24fb4b82673b1e338be62" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Core" />
+              </tagged-values>
+            </item>
+            <item id="250f9984a9b146efb2c27a2a95cce6e5" cid="C004" type="class" name="Decorator" style-class="" creation-date="01/03/2022 12:09:37" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv6baa1cf48a51460db20dc5698d4fa7fe" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tva05b3a41b4004b9cb4e0194ba6fb2d9d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="Decorator" />
+              </tagged-values>
+              <owned-items>
+                <owned-item ref="a7cadb08dff84a0688c1c5bf1880def3" />
+              </owned-items>
+              <attributes>
+                <attribute id="ad39f78079181485396eb4ae591f44f3d597" cid="PROP001" name="interface" creation-date="01/03/2022 12:09:37" property-ref="a7cadb08dff84a0688c1c5bf1880def3" />
+              </attributes>
+              <operations>
+                <operation id="o197b95a5be824f47a72666ce07e387d7597" cid="OP004" name="Decorator" creation-date="01/03/2022 12:09:37" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p51857dc7b9b34d028efc36fec4920e1d" name="c" type="std::unique_ptr&lt; Interface &gt;" type-id="std::unique_ptr&lt; Interface &gt;" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                </operation>
+              </operations>
+            </item>
+            <item id="a7cadb08dff84a0688c1c5bf1880def3" cid="PROP001" type="property" name="interface" style-class="" owner="250f9984a9b146efb2c27a2a95cce6e5" creation-date="01/03/2022 12:09:37" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv23b223d663b34b60951d5226f460f8b8" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="interface" />
+              </tagged-values>
+              <feature />
+              <structural-feature type="std::unique_ptr&lt; Interface &gt;" type-id="std::unique_ptr&lt; Interface &gt;" />
+              <property />
+            </item>
+            <item id="218aedb04ee7429d8023043ce48dd8b8" cid="C005" type="class" name="MessengerWithSalutation" style-class="" creation-date="01/03/2022 12:09:37" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvbe0b92a12e3a437ab175304d4367ba3a" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv984d15d03ca3499d8e1c0b5b24446e45" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MessengerWithSalutation" />
+              </tagged-values>
+              <owned-items>
+                <owned-item ref="24e4458a83144a15ba74fe73ced9e99f" />
+              </owned-items>
+              <attributes>
+                <attribute id="a10d9c596a7594cd79b14d8626df702da598" cid="PROP002" name="salutation" creation-date="01/03/2022 12:09:37" property-ref="24e4458a83144a15ba74fe73ced9e99f" />
+              </attributes>
+              <operations>
+                <operation id="oc68b981e504b43dbac7ab6f8d2d5c926598" cid="OP005" name="MessengerWithSalutation" creation-date="01/03/2022 12:09:37" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="p5f47c52c65144272b1c17616a5e91a73" name="c" type="std::unique_ptr&lt; Interface &gt;" type-id="std::unique_ptr&lt; Interface &gt;" />
+                    <parameter id="p1937d06938954d69ae6ce4a1544fd392" name="str" type="const std::string&amp;" type-id="const std::string&amp;" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                </operation>
+              </operations>
+            </item>
+            <item id="24e4458a83144a15ba74fe73ced9e99f" cid="PROP002" type="property" name="salutation" style-class="" owner="218aedb04ee7429d8023043ce48dd8b8" creation-date="01/03/2022 12:09:37" visibility="private">
+              <tagged-values>
+                <tagged-value id="tv5f45cbe6e4084524b90b47fd9ba3c154" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="salutation" />
+              </tagged-values>
+              <feature />
+              <structural-feature type="std::string" type-id="std::string" />
+              <property />
+            </item>
+            <item id="6694fe71825c457794281ab34ba0a4b5" cid="C006" type="class" name="MessengerWithValediction" style-class="" creation-date="01/03/2022 12:09:37" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvc903f9aee81e456896a5932abe3a8adf" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv443fba5145944779b7859775bb8ca4c1" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="MessengerWithValediction" />
+              </tagged-values>
+              <owned-items>
+                <owned-item ref="b8990691fa7c47afaa16cbe4765439af" />
+              </owned-items>
+              <attributes>
+                <attribute id="a59d3d13b9e8c42a8aad0a80eac028189598" cid="PROP003" name="valediction" creation-date="01/03/2022 12:09:37" property-ref="b8990691fa7c47afaa16cbe4765439af" />
+              </attributes>
+              <operations>
+                <operation id="o4135124e50b94d1492942eb837ee6fb0598" cid="OP006" name="MessengerWithValediction" creation-date="01/03/2022 12:09:37" type="" type-id="" visibility="public">
+                  <parameters>
+                    <parameter id="pc4f1d1e5554b46d08f8a0d5c81292620" name="c" type="std::unique_ptr&lt; Interface &gt;" type-id="std::unique_ptr&lt; Interface &gt;" />
+                    <parameter id="p04e6548666504bb3b0928b7c3f820f96" name="str" type="const std::string&amp;" type-id="const std::string&amp;" />
+                  </parameters>
+                  <stereotypes>
+                    <stereotype>create</stereotype>
+                  </stereotypes>
+                </operation>
+              </operations>
+            </item>
+            <item id="b8990691fa7c47afaa16cbe4765439af" cid="PROP003" type="property" name="valediction" style-class="" owner="6694fe71825c457794281ab34ba0a4b5" creation-date="01/03/2022 12:09:37" visibility="private">
+              <tagged-values>
+                <tagged-value id="tvebd3c9522afd4b2ab2eea7b4601d034b" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="valediction" />
+              </tagged-values>
+              <feature />
+              <structural-feature type="std::string" type-id="std::string" />
+              <property />
+            </item>
+            <item id="fa40c7ccd99e40c6adac4a7e56549e8e" cid="C007" type="class" name="ClientDecorator" style-class="" creation-date="01/03/2022 12:09:37" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv00fda5d8ec594eed8bfa16f6d44639bd" name="namespace" type="text" multiple="false" hidden="false" value="" />
+                <tagged-value id="tv14cf2737038a4fc0b574a02ea39cb922" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="ClientDecorator" />
+              </tagged-values>
+              <operations>
+                <operation id="ob95a6f924e4b489abd65b4e3cb6bedcc598" cid="OP007" name="run" creation-date="01/03/2022 12:09:37" type="" type-id="" visibility="public">
+                  <source-codes>
+                    <source-code language="Cpp">
+    const std::string salutation = "Greetings,";
+    const std::string valediction = "Sincerly, Andy";
+    std::string message1 = "This message is not decorated.";
+    std::string message2 = "This message is decorated with a salutation.";
+    std::string message3 = "This message is decorated with a valediction.";
+    std::string message4 = "This message is decorated with a salutation and a valediction.";
+
+    std::unique_ptr&lt; Interface &gt; messenger1 = std::make_unique&lt; Core &gt;();
+    std::unique_ptr&lt; Interface &gt; messenger2 =
+        std::make_unique&lt; MessengerWithSalutation &gt;( std::make_unique&lt; Core &gt;(), salutation );
+    std::unique_ptr&lt; Interface &gt; messenger3 =
+        std::make_unique&lt; MessengerWithValediction &gt;( std::make_unique&lt; Core &gt;(), valediction );
+    std::unique_ptr&lt; Interface &gt; messenger4 = std::make_unique&lt; MessengerWithValediction &gt;(
+        std::make_unique&lt; MessengerWithSalutation &gt;( std::make_unique&lt; Core &gt;(), salutation ),
+        valediction );
+
+    messenger1-&gt;write( message1 );
+    std::cout &lt;&lt; message1 &lt;&lt; '\n';
+    std::cout &lt;&lt; "\n------------------------------\n\n";
+
+    messenger2-&gt;write( message2 );
+    std::cout &lt;&lt; message2 &lt;&lt; '\n';
+    std::cout &lt;&lt; "\n------------------------------\n\n";
+
+    messenger3-&gt;write( message3 );
+    std::cout &lt;&lt; message3 &lt;&lt; '\n';
+    std::cout &lt;&lt; "\n------------------------------\n\n";
+
+    messenger4-&gt;write( message4 );
+    std::cout &lt;&lt; message4 &lt;&lt; '\n';
+    std::cout &lt;&lt; "\n------------------------------\n\n";
+</source-code>
+                  </source-codes>
+                </operation>
+              </operations>
+            </item>
+            <item id="3cabef4168814408b06705e5e7257a3a" cid="GNR001" type="generalization" name="" style-class="" creation-date="01/03/2022 12:09:37" from="0a08e9840db94123b670afa1199a0e34" to="a95a3e6bbc6041bdacbc52d0244d48aa" visibility="public">
+              <tagged-values>
+                <tagged-value id="tvc9574a4abd084684be9e9dc8b4fe613d" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="cfb0950893fb4f92911691ad84eccb04" cid="GNR002" type="generalization" name="" style-class="" creation-date="01/03/2022 12:09:37" from="250f9984a9b146efb2c27a2a95cce6e5" to="a95a3e6bbc6041bdacbc52d0244d48aa" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv402b73c706eb45a589f3c286233069f7" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="08765a36b4bd4fa1b7c677512441996f" cid="GNR003" type="generalization" name="" style-class="" creation-date="01/03/2022 12:09:37" from="218aedb04ee7429d8023043ce48dd8b8" to="250f9984a9b146efb2c27a2a95cce6e5" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv983e84609dcb4addbd9a940c45cf3055" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+            <item id="57e3cc9f8900419eaa93d25f950dadc8" cid="GNR004" type="generalization" name="" style-class="" creation-date="01/03/2022 12:09:37" from="6694fe71825c457794281ab34ba0a4b5" to="250f9984a9b146efb2c27a2a95cce6e5" visibility="public">
+              <tagged-values>
+                <tagged-value id="tv35b3ba964b33436b8f7ac495064b1a02" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+              </tagged-values>
+            </item>
+          </abstract-items>
+          <sub-models />
+          <diagram type="uml-class" id="p37c8149de5504460a03a03b9a62a4d22_651986787" name="" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="" view-location="122,58">
+            <style>
+              <background-color index="1" color="#FFFFFFFF" />
+              <background-color index="2" color="#FFFFFFFF" />
+              <background-type type="vertical-linear" />
+            </style>
+            <meta>
+              <authors>
+                <author> </author>
+              </authors>
+              <description />
+              <creation-date>01/03/2022 12:09:37</creation-date>
+              <change-date>01/03/2022 12:09:37</change-date>
+              <revision-count>0</revision-count>
+              <version />
+            </meta>
+            <tagged-values>
+              <tagged-value id="tv3f3335c1be4b4c61a65ae53ba81f9f0f" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+            </tagged-values>
+            <abstract-items />
+            <layer id="b6be6db3e43845e589fca832bf77fa73" name="Default" visible="true" enabled="true" locked="false">
+              <item id="7fa37d06169f452a9dd33b9fceda1b91" iid="da469da2c8e945e28471ff55633853fe" creation-date="01/03/2022 12:09:37" order-index="0" type="entity">
+                <layout ax="752.5" ay="80" awidth="74" aheight="77" x="752.5" y="80" width="74" height="77" />
+                <classifier />
+                <class />
+              </item>
+              <item id="a95a3e6bbc6041bdacbc52d0244d48aa" iid="23a7ad89bfeb484ea507eb38028fdd9a" creation-date="01/03/2022 12:09:37" order-index="1" type="entity">
+                <layout ax="291.5" ay="0" awidth="149" aheight="79" x="291.5" y="0" width="149" height="79" />
+                <classifier />
+                <class />
+              </item>
+              <item id="0a08e9840db94123b670afa1199a0e34" iid="ede94c47d9cd4ba2bc5331f2a04fe0fd" creation-date="01/03/2022 12:09:37" order-index="2" type="entity">
+                <layout ax="590.5" ay="179" awidth="66" aheight="41" x="590.5" y="179" width="66" height="41" />
+                <classifier />
+                <class />
+              </item>
+              <item id="250f9984a9b146efb2c27a2a95cce6e5" iid="366a8ff39ebc48d79bd34474da2f8460" creation-date="01/03/2022 12:09:37" order-index="3" type="entity">
+                <layout ax="201.5" ay="179" awidth="329" aheight="79" x="201.5" y="179" width="329" height="79" />
+                <classifier />
+                <class />
+              </item>
+              <item id="218aedb04ee7429d8023043ce48dd8b8" iid="197e1980035047babd5d7f8b1234f172" creation-date="01/03/2022 12:09:37" order-index="4" type="entity">
+                <layout ax="0" ay="358" awidth="353" aheight="97" x="0" y="358" width="353" height="97" />
+                <classifier />
+                <class />
+              </item>
+              <item id="6694fe71825c457794281ab34ba0a4b5" iid="0d86fd0e481f4a6b9e18161be521e00f" creation-date="01/03/2022 12:09:37" order-index="5" type="entity">
+                <layout ax="373" ay="358" awidth="359" aheight="97" x="373" y="358" width="359" height="97" />
+                <classifier />
+                <class />
+              </item>
+              <item id="fa40c7ccd99e40c6adac4a7e56549e8e" iid="091a418f41034d06b64d4af279cd80a1" creation-date="01/03/2022 12:09:37" order-index="6" type="entity">
+                <layout ax="752.5" ay="0" awidth="130" aheight="60" x="752.5" y="0" width="130" height="60" />
+                <classifier />
+                <class />
+              </item>
+              <item id="3cabef4168814408b06705e5e7257a3a" iid="67c51a871f7a4539991ea939ef404d2f" creation-date="01/03/2022 12:09:37" order-index="7" type="relation">
+                <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="624" y1="179" x2="366" y2="79" start-border-pos="0.126386363636364" end-border-pos="0.6245" name-position="0,20">
+                  <points>
+                    <point x="624" y="179" />
+                    <point x="624" y="129" />
+                    <point x="366" y="129" />
+                    <point x="366" y="79" />
+                  </points>
+                </layout>
+                <relation from="0a08e9840db94123b670afa1199a0e34" from-iid="ede94c47d9cd4ba2bc5331f2a04fe0fd" to="a95a3e6bbc6041bdacbc52d0244d48aa" to-iid="23a7ad89bfeb484ea507eb38028fdd9a" />
+              </item>
+              <item id="cfb0950893fb4f92911691ad84eccb04" iid="3884947d4dac4b03a550486a975c0676" creation-date="01/03/2022 12:09:37" order-index="8" type="relation">
+                <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="365" y1="179" x2="366" y2="79" start-border-pos="0.1245" end-border-pos="0.6245" name-position="0,20">
+                  <points>
+                    <point x="365" y="179" />
+                    <point x="366" y="129" />
+                    <point x="366" y="129" />
+                    <point x="366" y="79" />
+                  </points>
+                </layout>
+                <relation from="250f9984a9b146efb2c27a2a95cce6e5" from-iid="366a8ff39ebc48d79bd34474da2f8460" to="a95a3e6bbc6041bdacbc52d0244d48aa" to-iid="23a7ad89bfeb484ea507eb38028fdd9a" />
+              </item>
+              <item id="08765a36b4bd4fa1b7c677512441996f" iid="d51314ed04354847a6de28739500c027" creation-date="01/03/2022 12:09:37" order-index="9" type="relation">
+                <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="175" y1="358" x2="367" y2="258" start-border-pos="0.12414730878187" end-border-pos="0.6245" name-position="0,20">
+                  <points>
+                    <point x="175" y="358" />
+                    <point x="176" y="308" />
+                    <point x="366" y="308" />
+                    <point x="367" y="258" />
+                  </points>
+                </layout>
+                <relation from="218aedb04ee7429d8023043ce48dd8b8" from-iid="197e1980035047babd5d7f8b1234f172" to="250f9984a9b146efb2c27a2a95cce6e5" to-iid="366a8ff39ebc48d79bd34474da2f8460" />
+              </item>
+              <item id="57e3cc9f8900419eaa93d25f950dadc8" iid="47f30d00652f4b7c8458d78e1b6a9d68" creation-date="01/03/2022 12:09:37" order-index="10" type="relation">
+                <layout line-style="perpendicular" lock-to-fields="false" auto-path="" x1="551" y1="358" x2="367" y2="258" start-border-pos="0.124153203342618" end-border-pos="0.6245" name-position="0,20">
+                  <points>
+                    <point x="551" y="358" />
+                    <point x="552" y="308" />
+                    <point x="366" y="308" />
+                    <point x="367" y="258" />
+                  </points>
+                </layout>
+                <relation from="6694fe71825c457794281ab34ba0a4b5" from-iid="0d86fd0e481f4a6b9e18161be521e00f" to="250f9984a9b146efb2c27a2a95cce6e5" to-iid="366a8ff39ebc48d79bd34474da2f8460" />
+              </item>
+            </layer>
+          </diagram>
+        </model>
+      </sub-models>
+      <diagram type="uml-package" id="p9a19e7fedd9c4359a0fc60d54b8ad7ed_307485441" name="Packages" order-index="1" uid="" show-id="false" show-name="true" show-parent-name="false" name-style="local-auto-parents" show-stereotypes="true" show-tagged-values="false" show-template-parameters="true" show-fields="true" show-field-tags="true" show-empty-compartments="true" show-special-indicators="false" show-rules="true" show-attributes="true" show-attribute-visibility="true" show-operations="true" show-operation-parameters="true" show-operation-visibility="true" show-visibility-sign="true" show-nullability="true" show-sequence-number="false" show-extension-points="false" show-relationship-texts="true" show-data="true" show-description="false" show-field-description="false" auto-routed-paths="false" default-line-style="default" namespace="">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="vertical-linear" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>01/03/2022 12:09:37</creation-date>
+          <change-date>01/03/2022 12:09:37</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <tagged-values>
+          <tagged-value id="tv517e9aafab094a49b0b7dfc01b17f8cb" name="ReverseEngineered" type="text" multiple="false" hidden="true" value="" />
+        </tagged-values>
+        <abstract-items />
+        <layer id="8891984d8cef4e0e9c2f1a08c87556c2" name="Default" visible="true" enabled="true" locked="false">
+          <item id="3ac4fccbb63c4d56b82e0590b201e388" iid="49234fa8c17c4ecd8f8d11edda4a4bfb" creation-date="01/03/2022 12:09:37" order-index="0" type="entity">
+            <layout ax="0" ay="0" awidth="84" aheight="56" x="0" y="0" width="84" height="56" expanded="0,0,84,56" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>
